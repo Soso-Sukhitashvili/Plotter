@@ -15,7 +15,7 @@ class Plotter:
 
     def __init__(self, input_dict, dict_keys_as_labels = True):
         """
-        The class plots high dimentional vectors into 2 or 3 dimentional plot.
+        The class plots high dimensional vectors into 2 or 3 dimensional plot.
         arguments:
         
             - input_dict must be like: {'comedy' : [numpy_matrix, label_number, numpy_array_of_file_names],
@@ -74,7 +74,7 @@ class Plotter:
 
     def plot(self, func_type='tsne', dim='3d', figsize=(10,10)):
         """
-        the function plots data in 2 or 3 dimentions with default figsize of (10, 10). "func_type" defines
+        the function plots data in 2 or 3 dimensions with default figsize of (10, 10). "func_type" defines
         which function to use to reduce dimentions TSNE or PCA. Default is TSNE
         - if you use jupyter notebook then excute command '%matplotlib notebook' to use interactive plots
         """
