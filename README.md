@@ -1,6 +1,6 @@
 # The module plots high dimensional vectors in 2 or 3 dimensional plots.
 
-       my_plot = Plotter(dict)
+       my_plot = Plotter(dict, dict_keys_as_labels=True)
        
        Input args:
         
