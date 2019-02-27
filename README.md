@@ -15,3 +15,5 @@
             - 'label_number' is just label integer. That integers are used at plot to generate colors. The numbers must be    started
               from zero;
             - 'numpy_array_of_file_names' must be a numpy vector of strings like : np.array(["comedy", "action", ...])
+
+       my_plot.plot(dim='3d', func_type='tsne', figsize=(10,10))
